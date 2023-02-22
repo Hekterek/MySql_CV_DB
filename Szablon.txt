@@ -1,0 +1,46 @@
+USERS
+
+- user_ID 		(primary key) AI
+- first_name 
+- surname
+- login
+- password
+- tel_num
+- e-mail
+- photo
+
+-----------------------------------------------------------
+				|
+EXPERIENCE			|
+				|
+- user_id 		(index)		|
+- activity_id	(primary key) AI	|
+- Company_name			|
+- locality				|
+- job_position			|
+- start_date			|
+- end_date			|
+				|
+ACTIVITIES			|
+				|
+- activity_id	(index)		|
+- activity				|			
+				|
+-----------------------------------------------------------
+				|
+EDUCATION			|
+				|
+- user_id	(index)			|
+- school_name			|
+- address				|
+- course_name			|
+- diploma				|
+- start_date			|
+- end_date			|
+				|
+-----------------------------------------------------------
+
+HOBBY
+
+- user_id     (index)
+- hobby
